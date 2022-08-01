@@ -1,0 +1,34 @@
+.sidemn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0 20px 50px;
+    overflow: hidden;
+}
+.logosec span{
+color: var(--whiteclr);
+font-size: 25px;
+
+}
+.logout{
+    color: var(--greyclr);
+ }
+.item{
+    padding: 18px 0px;
+    color: var(--whiteclr);
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: var(--whiteclr);
+    color: var(--purpelclr);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: .5s;
+}
+.item span{
+    margin-left: 20px;
+    font-size: medium;
+}

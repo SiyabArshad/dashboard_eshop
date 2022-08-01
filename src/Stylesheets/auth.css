@@ -1,0 +1,53 @@
+/*login page code*/
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login2{
+    padding: 20px;
+    width: 400px;
+}
+.login2 select{
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.logo{
+    color: var(--whiteclr);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.inp1{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-style: none;
+    border: 1px solid var(--whiteclr);
+    background-color: var(--tc);
+    border-radius: 5px;
+    color: var(--whiteclr);
+}
+.inp1::placeholder{
+    color: var(--whiteclr);
+}
+.login2 button{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: var(--tc);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.login2 span{
+    display: block;
+    color: var(--whiteclr);
+    cursor: pointer;
+}

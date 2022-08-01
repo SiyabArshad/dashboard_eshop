@@ -1,0 +1,98 @@
+.main-conrole{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.prirole{
+    width: 17%;
+    overflow: hidden;
+}
+.secconr{
+    background-color: var(--whiteclr);
+    margin: 25px 15px 15px 0px;
+    border-radius: 20px;
+    width: 83%;
+    overflow: scroll;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+
+}
+.secconr::-webkit-scrollbar {
+    display: none;
+  }
+  .headerrole{
+   display: flex;
+   justify-content: space-between; 
+  }
+  .logtextrole{
+    color: var(--tc);
+    font-size: 25px;
+    margin: 20px;
+  }
+  .logtext1role{
+    color: var(--tc);
+    font-size: 18px;
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid var(--purpelclr);
+    cursor: pointer;
+  }
+.ocdsrole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+  /*user card component css*/
+  .mncorderrole{
+    min-width: 250px;
+    min-height: 300px;
+    background-color: var(--whiteclr);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px;
+  }
+
+  .userimagerole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .userimagerole img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    align-items: center;
+}
+.spacrole{
+    margin-top: 20px;
+}
+  .partextrole{
+   margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .quesrole{
+    font-size: 18px;
+    color: var(--tc);
+    font-weight: 300;
+  }
+  .ansrole{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  .cdilveryrole{
+   color: var(--tc);
+   border: 1px solid var(--purpelclr);
+   display: inline-block;
+   padding: 10px 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  cursor: pointer;
+}

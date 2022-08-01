@@ -1,0 +1,220 @@
+.main-con{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.pri{
+    width: 17%;
+    overflow: hidden;
+}
+.seccon{ 
+    background-color: var(--whiteclr);
+    margin: 25px 15px 15px 0px;
+    border-radius: 20px;
+    width: 83%;
+    display: flex;
+}
+.firstone{
+ padding: 30px 20px;
+ width: 65%;
+overflow: scroll;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.firstone::-webkit-scrollbar {
+    display: none;
+  }
+  
+.logodm{
+    color:var(--tc);
+    font-size: larger;
+    font-weight: bolder;
+}
+.logod{
+    color:var(--tc);
+    font-size: larger;
+}
+.parlogo{
+    margin: 10px 20px;
+}
+.cardss{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ordercard{
+    min-width: 20%;
+    background-color: var(--blueclr);
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordercard2{
+    min-width: 20%;
+    background-color: var(--pinkclr);
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.iconinside{
+    height: 30px;
+    width: 30px;
+}
+.iconinside img{
+    height: 100%;
+    width: 100%;
+
+}
+.orderquant{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nooforder{
+    display: block;
+    color: var(--tc);
+}
+.ord{
+    display: block;
+    color: var(--tc);
+    font-weight: bold;
+    text-align: center;
+}
+.iconinside3{
+    min-height: 10px;
+    min-width: 10px;
+    padding: 5px;
+   border-radius: 3px;
+    background-color: var(--purpelclr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+.iconinside3 span{
+    color: var(--whiteclr);
+    font-size: 10px;
+}
+.graph{
+    padding: 5px;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+.filter span{
+    color: var(--tc);
+    font-size: larger;
+    font-weight: 600;
+}
+.inpt{
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    color: var(--tc);
+    border-color: var(--purpelclr);
+    outline: none;
+}
+.secondone{
+    width: 35%;
+overflow: scroll;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.secondone::-webkit-scrollbar {
+    display: none;
+  }
+
+.searchno{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.sbox{
+    padding: 5px 10px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    border: 1px solid;
+    border-color: var(--purpelclr);
+    color: var(--tc);
+}
+.searchno input::placeholder{
+    color: var(--tc);
+}
+.searchno input:focus{
+    outline: none;
+}
+.notidiv{
+    background-color: var(--purpelclr);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 10px;
+    color: var(--whiteclr);
+}
+
+.choose input{
+    display: none;
+}
+.profile{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.topselling{
+    padding: 10px;
+}
+.tpsi{
+    display: block;
+    color: var(--tc);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.mntps{
+display: flex;
+margin-top: 20px;
+}
+.mntps img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 10px;
+}
+.mntps2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mntps2 span{
+    display: block;
+    color: var(--tc);
+}

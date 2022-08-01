@@ -1,0 +1,10 @@
+.messagemain{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 4px;
+    color: var(--tc);
+    border-radius: 5px;
+    border: 1px solid var(--purpelclr);
+}
+
