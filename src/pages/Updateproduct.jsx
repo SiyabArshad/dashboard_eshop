@@ -8,6 +8,7 @@ export default function Updateproduct() {
   const [desc,setdesc]=React.useState("")
   const [quantity,setquantity]=React.useState(10)
   const [category,setcategory]=React.useState("Electronics")
+  const [price,setprice]=React.useState(10)
   const updateproductsfunc=()=>{
 
   }
@@ -30,7 +31,8 @@ export default function Updateproduct() {
     <div className='adpformtext'>
       <input onChange={(e)=>settitle(e.target.value)} className='adptitle' type="text" placeholder="title"></input>
       <textarea onChange={(e)=>setdesc(e.target.value)}  className='adpdesc' placeholder='decription'></textarea>
-      <input onChange={(e)=>setquantity(e.target.value)} className='adpquan'  type="number" placeholder="quantity"></input>
+      <input min={10} max={1000} onChange={(e)=>setquantity(e.target.value)} className='adpquan'  type="number" placeholder="quantity"></input>
+        <input min={1} max={1000000} onChange={(e)=>setprice(e.target.value)} className='adpquan'  type="number" placeholder="price"></input>
       <select onChange={(e)=>setcategory(e.target.value)} className='adpcat'>
         {
           cat.map((item,i)=>(

@@ -10,6 +10,7 @@ import Verification from './pages/Verification';
 import Createuser from './pages/Createuser';
 import Product from './pages/Product';
 import Addproduct from './pages/Addproduct';
+import Forgot from './pages/Forgot';
 import Updateproduct from './pages/Updateproduct';
 import {
   BrowserRouter,
@@ -17,7 +18,7 @@ import {
   Route,
 } from "react-router-dom";
 function App() {
-const user=true
+const user=false
   return (
 <BrowserRouter>
     <Routes>
@@ -27,7 +28,8 @@ const user=true
       <Route path="/roles" element={user?<Roles />:<Login/>}/>
       <Route path="/createuser" element={user?<Createuser />:<Login/>}/>
       <Route path="/verify/:id" element={!user?<Verification />:<Home/>}/>
-      <Route path="/reset" element={!user?<Reset />:<Home/>}/>
+      <Route path="/reset/:id" element={!user?<Reset />:<Home/>}/>
+      <Route path="/forgotpassword" element={!user?<Forgot />:<Home/>}/>
       <Route path="/products" element={user?<Product />:<Login/>}/>
       <Route path="/addproduct" element={user?<Addproduct />:<Login/>}/>
       <Route path="/update/:id" element={user?<Updateproduct />:<Login/>}/>
